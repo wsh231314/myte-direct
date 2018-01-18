@@ -1,0 +1,79 @@
+2018-01-17 18:41:54  [ main:0 ] - [ INFO ]  Please select the myte expense file which download from auto OCR page!
+2018-01-17 18:45:18  [ main:203780 ] - [ INFO ]  check result:
+2018-01-17 18:45:23  [ main:208702 ] - [ INFO ]  No WBS code, choose the first option!
+2018-01-17 18:45:25  [ main:210523 ] - [ INFO ]  Do not have the [From] input field, ignore it!
+2018-01-17 18:45:25  [ main:210862 ] - [ INFO ]  Do not have the [To] input field, ignore it!
+2018-01-17 18:45:35  [ main:221096 ] - [ INFO ]  No WBS code, choose the first option!
+2018-01-17 18:45:37  [ main:222806 ] - [ INFO ]  Do not have the [From] input field, ignore it!
+2018-01-17 18:45:37  [ main:223137 ] - [ INFO ]  Do not have the [To] input field, ignore it!
+2018-01-17 18:45:48  [ main:233502 ] - [ INFO ]  No WBS code, choose the first option!
+2018-01-17 18:46:00  [ main:245914 ] - [ ERROR ]  It has something wrong when input the expnese!
+java.io.FileNotFoundException: C:\Users\shawn.shaohua.wang\Documents\10657113 (13)_result.xlsx (The process cannot access the file because it is being used by another process)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:206)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:156)
+	at co.MyteDirect.main(MyteDirect.java:444)
+2018-01-17 18:47:12  [ main:0 ] - [ INFO ]  Please select the myte expense file which download from auto OCR page!
+2018-01-17 18:47:14  [ main:2400 ] - [ INFO ]  check result:
+2018-01-17 18:47:19  [ main:7203 ] - [ INFO ]  No WBS code, choose the first option!
+2018-01-17 18:47:20  [ main:8849 ] - [ INFO ]  Do not have the [From] input field, ignore it!
+2018-01-17 18:47:21  [ main:9177 ] - [ INFO ]  Do not have the [To] input field, ignore it!
+2018-01-17 18:47:31  [ main:19775 ] - [ INFO ]  No WBS code, choose the first option!
+2018-01-17 18:47:33  [ main:21326 ] - [ INFO ]  Do not have the [From] input field, ignore it!
+2018-01-17 18:47:33  [ main:21669 ] - [ INFO ]  Do not have the [To] input field, ignore it!
+2018-01-17 18:47:45  [ main:33627 ] - [ INFO ]  No WBS code, choose the first option!
+2018-01-17 18:52:51  [ main:0 ] - [ INFO ]  Please select the myte expense file which download from auto OCR page!
+2018-01-17 18:52:53  [ main:2566 ] - [ INFO ]  check result:
+2018-01-17 18:52:58  [ main:7386 ] - [ INFO ]  No WBS code, choose the first option!
+2018-01-17 18:53:00  [ main:9047 ] - [ INFO ]  Do not have the [From] input field, ignore it!
+2018-01-17 18:53:00  [ main:9402 ] - [ INFO ]  Do not have the [To] input field, ignore it!
+2018-01-17 18:53:06  [ main:15176 ] - [ ERROR ]  It has something wrong when input the expnese!
+org.openqa.selenium.NoSuchElementException: Unable to find element with css selector == #ctl00_ctl00_MainContentPlaceHolder_ContentPlaceHolder_TimeReport_btn_DetailCancel_bottom
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'DLC0007T8NLH2DL', ip: '10.237.170.81', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_11'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:27173/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: ca8d534b-e2df-4222-8b4d-6c72d10808ae
+*** Element info: {Using=id, value=ctl00_ctl00_MainContentPlaceHolder_ContentPlaceHolder_TimeReport_btn_DetailCancel_bottom}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:416)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at co.MyteDirect.main(MyteDirect.java:137)
+2018-01-17 18:54:55  [ main:0 ] - [ INFO ]  Please select the myte expense file which download from auto OCR page!
+2018-01-17 18:54:58  [ main:2306 ] - [ INFO ]  check result:
+2018-01-17 18:55:03  [ main:7212 ] - [ INFO ]  No WBS code, choose the first option!
+2018-01-17 18:55:04  [ main:8860 ] - [ INFO ]  Do not have the [From] input field, ignore it!
+2018-01-17 18:55:05  [ main:9184 ] - [ INFO ]  Do not have the [To] input field, ignore it!
+2018-01-17 18:55:15  [ main:19907 ] - [ INFO ]  No WBS code, choose the first option!
+2018-01-17 18:55:17  [ main:21535 ] - [ INFO ]  Do not have the [From] input field, ignore it!
+2018-01-17 18:55:17  [ main:21915 ] - [ INFO ]  Do not have the [To] input field, ignore it!
+2018-01-17 18:55:28  [ main:32142 ] - [ INFO ]  No WBS code, choose the first option!
+2018-01-17 18:55:51  [ main:56019 ] - [ INFO ]  No WBS code, choose the first option!
+2018-01-17 18:56:15  [ main:79357 ] - [ INFO ]  No WBS code, choose the first option!
+2018-01-17 18:56:32  [ main:96811 ] - [ INFO ]  No WBS code, choose the first option!
+2018-01-17 18:56:49  [ main:114047 ] - [ INFO ]  No WBS code, choose the first option!
+2018-01-17 19:13:12  [ main:0 ] - [ INFO ]  Please select the myte expense file which download from auto OCR page!
+2018-01-17 19:13:15  [ main:2915 ] - [ INFO ]  check result:
+2018-01-17 19:13:20  [ main:8029 ] - [ INFO ]  No WBS code, choose the first option!
+2018-01-17 19:13:21  [ main:9768 ] - [ INFO ]  Do not have the [From] input field, ignore it!
+2018-01-17 19:13:22  [ main:10123 ] - [ INFO ]  Do not have the [To] input field, ignore it!
+2018-01-17 19:13:32  [ main:20163 ] - [ INFO ]  No WBS code, choose the first option!
+2018-01-17 19:13:34  [ main:21908 ] - [ INFO ]  Do not have the [From] input field, ignore it!
+2018-01-17 19:13:34  [ main:22316 ] - [ INFO ]  Do not have the [To] input field, ignore it!
+2018-01-17 19:13:46  [ main:34776 ] - [ INFO ]  No WBS code, choose the first option!
+2018-01-17 19:14:09  [ main:57355 ] - [ INFO ]  No WBS code, choose the first option!
+2018-01-17 19:14:32  [ main:80083 ] - [ INFO ]  No WBS code, choose the first option!
+2018-01-17 19:14:49  [ main:96863 ] - [ INFO ]  No WBS code, choose the first option!
+2018-01-17 19:15:06  [ main:113882 ] - [ INFO ]  No WBS code, choose the first option!
